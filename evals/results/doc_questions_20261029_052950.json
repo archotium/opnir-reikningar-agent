@@ -1,0 +1,638 @@
+{
+  "summary": {
+    "questions": 15,
+    "retrieval_hit_at_1": 10,
+    "retrieval_hit_at_5": 13,
+    "answers_passed": 13,
+    "input_tokens": 67489,
+    "output_tokens": 2744
+  },
+  "results": [
+    {
+      "id": "d01",
+      "question": "Hvenær birtast nýjar upplýsingar á opnum reikningum ríkisins?",
+      "docs": [
+        "opnir-info"
+      ],
+      "expect": "10\\.",
+      "rank": 1,
+      "top": [
+        [
+          "opnir-info",
+          0.87
+        ],
+        [
+          "fjs-rikisreikningur",
+          0.856
+        ],
+        [
+          "fjs-bokhald-og-reikningsskil-rikisins",
+          0.855
+        ],
+        [
+          "fjs-nyskopun",
+          0.852
+        ],
+        [
+          "fjs-thjonustustefna-fjarsyslunnar",
+          0.848
+        ]
+      ],
+      "answer": "Nýjar upplýsingar birtast að jafnaði 10. hvers mánaðar. Vefurinn er uppfærður mánaðarlega og upplýsingar tengjast reikningum sem greiddir voru í mánuðinum á undan.\n\nHeimild: **Opnir reikningar ríkisins – Um vefinn** — https://opnirreikningar.is/info",
+      "has_fact": true,
+      "cites_source": true,
+      "passed": true,
+      "tools": [
+        "search_documents"
+      ],
+      "seconds": 2.6,
+      "input_tokens": 4239,
+      "output_tokens": 111
+    },
+    {
+      "id": "d02",
+      "question": "Eru greiðslur til einstaklinga birtar á opnirreikningar.is?",
+      "docs": [
+        "opnir-info"
+      ],
+      "expect": "VSK|virðisauka",
+      "rank": 2,
+      "top": [
+        [
+          "opnir-info",
+          0.882
+        ],
+        [
+          "opnir-info",
+          0.867
+        ],
+        [
+          "fjs-nu-er-haegt-ad-greida-med-millifaerslu-fyrir-umsoknir-a-island-is",
+          0.863
+        ],
+        [
+          "fjs-siminn-pay-uppfyllir-kroefur-um-rafraen-gagnaskil-fyrir-vidskiptakort-rikisins",
+          0.861
+        ],
+        [
+          "opnir-info",
+          0.861
+        ]
+      ],
+      "answer": "Já, en aðeins ef viðkomandi hefur gilt VSK-númer. Á opnirreikningar.is segir að „vegna persónuverndarsjónarmiða verða ekki birtar upplýsingar um greiðslur til einstaklinga ef viðkomandi hefur ekki gilt VSK-númer“; ef VSK-númer er gilt eru upplýsingar birtar.\n\nHeimild: Opnir reikningar ríkisins – Um vefinn https://opnirreikningar.is/info",
+      "has_fact": true,
+      "cites_source": true,
+      "passed": true,
+      "tools": [
+        "search_documents"
+      ],
+      "seconds": 2.5,
+      "input_tokens": 4263,
+      "output_tokens": 158
+    },
+    {
+      "id": "d03",
+      "question": "Eftir hvaða reikningsskilastöðlum eru reikningsskil A-hluta ríkisins gerð?",
+      "docs": [
+        "fjs-bokhald-og-reikningsskil-rikisins",
+        "fjs-rikisreikningur-2025-kominn-ut"
+      ],
+      "expect": "IPSAS",
+      "rank": 1,
+      "top": [
+        [
+          "fjs-bokhald-og-reikningsskil-rikisins",
+          0.891
+        ],
+        [
+          "fjs-bokhald-og-reikningsskil-rikisins",
+          0.867
+        ],
+        [
+          "fjs-thjonustustefna-fjarsyslunnar",
+          0.86
+        ],
+        [
+          "fjs-rikisreikningur-2025-kominn-ut",
+          0.858
+        ],
+        [
+          "fjs-innheimta",
+          0.854
+        ]
+      ],
+      "answer": "Reikningsskil A-hluta ríkisins eru unnin samkvæmt alþjóðlegum reikningsskilastöðlum fyrir opinbera aðila, IPSAS.\n\nHeimild: Bókhald og reikningsskil ríkisins — https://island.is/s/fjarsyslan/bokhald-og-reikningsskil-rikisins",
+      "has_fact": true,
+      "cites_source": true,
+      "passed": true,
+      "tools": [
+        "search_documents"
+      ],
+      "seconds": 2.6,
+      "input_tokens": 6962,
+      "output_tokens": 163
+    },
+    {
+      "id": "d04",
+      "question": "Hvað þýðir það að reikningsskil ríkisins séu á rekstrargrunni?",
+      "docs": [
+        "fjs-bokhald-og-reikningsskil-rikisins"
+      ],
+      "expect": "falla til",
+      "rank": 1,
+      "top": [
+        [
+          "fjs-bokhald-og-reikningsskil-rikisins",
+          0.899
+        ],
+        [
+          "fjs-bokhald-og-reikningsskil-rikisins",
+          0.857
+        ],
+        [
+          "fjs-bokhald-og-reikningsskil-rikisins",
+          0.855
+        ],
+        [
+          "opnir-info",
+          0.852
+        ],
+        [
+          "fjs-greidsluthjonusta",
+          0.852
+        ]
+      ],
+      "answer": "Það þýðir að tekjur og gjöld eru skráð þegar þau falla til, en ekki þegar greiðsla fer fram. Þannig á reikningsskil að gefa skýrari mynd af fjárhagslegri stöðu ríkisins, þar á meðal eignum, skuldum, kröfum og skuldbindingum.\n\nHeimild: Bókhald og reikningsskil ríkisins — https://island.is/s/fjarsyslan/bokhald-og-reikningsskil-rikisins",
+      "has_fact": true,
+      "cites_source": true,
+      "passed": true,
+      "tools": [
+        "search_documents"
+      ],
+      "seconds": 2.0,
+      "input_tokens": 4079,
+      "output_tokens": 148
+    },
+    {
+      "id": "d05",
+      "question": "Hvað er fjárheimild?",
+      "docs": [
+        "fjs-bokhald-og-reikningsskil-rikisins"
+      ],
+      "expect": "Alþing",
+      "rank": 1,
+      "top": [
+        [
+          "fjs-bokhald-og-reikningsskil-rikisins",
+          0.869
+        ],
+        [
+          "fjs-bokhald-og-reikningsskil-rikisins",
+          0.847
+        ],
+        [
+          "fjs-um-fjarsysluna",
+          0.827
+        ],
+        [
+          "fjs-greidsluthjonusta",
+          0.827
+        ],
+        [
+          "fjs-innheimta",
+          0.822
+        ]
+      ],
+      "answer": "Fjárheimild er heimild Alþingis til að nota opinbert fé í tiltekin verkefni á fjárhagsárinu. Hún segir til um hámarksupphæð sem má nota fyrir ákveðið málefnasvið, málaflokk, stofnun eða verkefni, og ríkisstofnun má ekki greiða út fé nema hún hafi fjárheimild fyrir útgjöldunum.\n\nHeimild: Bókhald og reikningsskil ríkisins — https://island.is/s/fjarsyslan/bokhald-og-reikningsskil-rikisins",
+      "has_fact": true,
+      "cites_source": true,
+      "passed": true,
+      "tools": [
+        "search_documents"
+      ],
+      "seconds": 2.3,
+      "input_tokens": 4027,
+      "output_tokens": 169
+    },
+    {
+      "id": "d06",
+      "question": "Hvaða launaþjónustu sinnir Fjársýslan fyrir stofnanir ríkisins?",
+      "docs": [
+        "fjs-laun"
+      ],
+      "expect": "launakeyrsl|launa- og mannauðs",
+      "rank": 3,
+      "top": [
+        [
+          "fjs-um-fjarsysluna",
+          0.894
+        ],
+        [
+          "fjs-thjonustustefna-fjarsyslunnar",
+          0.891
+        ],
+        [
+          "fjs-laun",
+          0.886
+        ],
+        [
+          "fjs-laun",
+          0.884
+        ],
+        [
+          "fjs-um-fjarsysluna",
+          0.883
+        ]
+      ],
+      "answer": "Fjársýslan sinnir launaþjónustu fyrir ríkisstofnanir og ráðuneyti. Hún sér meðal annars um:\n\n- framkvæmd launakeyrslna\n- umsjón með miðlægu launa- og mannauðskerfi ríkisins\n- viðhald launataxta og launataflna samkvæmt gildandi kjarasamningum\n- skil á launatengdum gjöldum og sköttum\n\nÍ þjónustustefnu kemur einnig fram að launaþjónustan skiptist í grunnþjónustu og viðbótarþjónustu. Grunnþjónusta og viðbótarþjónusta fela bæði í sér:\n- afgreiðslu launa og launakeyrslu\n- skil á launatengdum gjöldum\n- afturvirkar launahækkanir\n- breytingar á skipulagseiningum og/eða starfsheitum\n- aðstoð við leiðréttingar launa og frádráttar\n- aðstoð við og framkvæmd greiðslu til maka\n\nHeimild: Um Fjársýsluna — https://island.is/s/fjarsyslan/um-fjarsysluna  \nHeimild: Þjónustustefna Fjársýslunnar — https://island.is/s/fjarsyslan/thjonustustefna-fjarsyslunnar  \nHeimild: Laun — https://island.is/s/fjarsyslan/laun",
+      "has_fact": true,
+      "cites_source": true,
+      "passed": true,
+      "tools": [
+        "search_documents"
+      ],
+      "seconds": 2.8,
+      "input_tokens": 4245,
+      "output_tokens": 359
+    },
+    {
+      "id": "d07",
+      "question": "Hversu margar stofnanir eru í bókhalds- eða greiðsluþjónustu hjá Fjársýslunni?",
+      "docs": [
+        "fjs-greidsluthjonusta"
+      ],
+      "expect": "300",
+      "rank": 1,
+      "top": [
+        [
+          "fjs-greidsluthjonusta",
+          0.889
+        ],
+        [
+          "fjs-um-fjarsysluna",
+          0.881
+        ],
+        [
+          "fjs-bokhaldsthjonusta",
+          0.878
+        ],
+        [
+          "fjs-eydublod-fjarsyslan",
+          0.872
+        ],
+        [
+          "fjs-thjonustustefna-fjarsyslunnar",
+          0.871
+        ]
+      ],
+      "answer": "Fjársýslan segir að hún sé með **um 300 stofnanir** í bókhalds- og/eða greiðsluþjónustu.\n\nHeimild: **Innheimtu- og greiðsluþjónusta** — https://island.is/s/fjarsyslan/greidsluthjonusta",
+      "has_fact": true,
+      "cites_source": true,
+      "passed": true,
+      "tools": [
+        "search_documents"
+      ],
+      "seconds": 2.7,
+      "input_tokens": 4189,
+      "output_tokens": 116
+    },
+    {
+      "id": "d08",
+      "question": "Hvert er markmiðið með nýsköpunarverkefninu um rafræn gagnaskil fyrir viðskiptakort ríkisins?",
+      "docs": [
+        "fjs-siminn-pay-uppfyllir-kroefur-um-rafraen-gagnaskil-fyrir-vidskiptakort-rikisins",
+        "fjs-fyrsta-lausnin-uppfyllir-kroefur-um-rafraen-gagnaskil-fyrir-vidskiptakort-rikisins"
+      ],
+      "expect": "Orra|handavinn",
+      "rank": 1,
+      "top": [
+        [
+          "fjs-siminn-pay-uppfyllir-kroefur-um-rafraen-gagnaskil-fyrir-vidskiptakort-rikisins",
+          0.893
+        ],
+        [
+          "fjs-fyrsta-lausnin-uppfyllir-kroefur-um-rafraen-gagnaskil-fyrir-vidskiptakort-rikisins",
+          0.891
+        ],
+        [
+          "fjs-nordic-gov-tech-alliance",
+          0.863
+        ],
+        [
+          "fjs-throun-thjonustulags-gagnavistkerfis-og-model-context-protocol-mcp-vidmots",
+          0.861
+        ],
+        [
+          "fjs-nyskopunarverdlaun-hins-opinbera",
+          0.851
+        ]
+      ],
+      "answer": "Markmið verkefnisins er að **einfalda uppgjör og bókun kortafærslna í Orra, bæta gagnagæði og draga úr handavinnu og pappírsnotkun**.  \n\nHeimild: *Fyrsta lausnin uppfyllir kröfur um rafræn gagnaskil fyrir viðskiptakort ríkisins* — https://island.is/s/fjarsyslan/frett/fyrsta-lausnin-uppfyllir-kroefur-um-rafraen-gagnaskil-fyrir-vidskiptakort-rikisins",
+      "has_fact": true,
+      "cites_source": true,
+      "passed": true,
+      "tools": [
+        "search_documents"
+      ],
+      "seconds": 1.8,
+      "input_tokens": 4140,
+      "output_tokens": 176
+    },
+    {
+      "id": "d09",
+      "question": "Í hvað óskaði Fjársýslan eftir tilboðum í tengslum við MCP?",
+      "docs": [
+        "fjs-throun-thjonustulags-gagnavistkerfis-og-model-context-protocol-mcp-vidmots"
+      ],
+      "expect": "gagnavistkerf",
+      "rank": 1,
+      "top": [
+        [
+          "fjs-throun-thjonustulags-gagnavistkerfis-og-model-context-protocol-mcp-vidmots",
+          0.862
+        ],
+        [
+          "fjs-thjonustustefna-fjarsyslunnar",
+          0.829
+        ],
+        [
+          "fjs-throun-thjonustulags-gagnavistkerfis-og-model-context-protocol-mcp-vidmots",
+          0.826
+        ],
+        [
+          "fjs-maelabord",
+          0.825
+        ],
+        [
+          "fjs-innkaup-og-sala",
+          0.823
+        ]
+      ],
+      "answer": "Fjársýslan óskaði eftir tilboðum í **þróun þjónustulags gagnavistkerfis og Model Context Protocol (MCP) viðmóts**.\n\nHeimild: *Þróun þjónustulags gagnavistkerfis og Model Context Protocol (MCP) viðmóts.* — https://island.is/s/fjarsyslan/frett/throun-thjonustulags-gagnavistkerfis-og-model-context-protocol-mcp-vidmots",
+      "has_fact": true,
+      "cites_source": true,
+      "passed": true,
+      "tools": [
+        "search_documents"
+      ],
+      "seconds": 2.5,
+      "input_tokens": 3806,
+      "output_tokens": 155
+    },
+    {
+      "id": "d10",
+      "question": "Hvenær var móttaka Fjársýslunnar lokuð vegna sumarleyfa 2026?",
+      "docs": [
+        "fjs-sumarlokun-i-mottoeku-fjarsyslunnar-2026"
+      ],
+      "expect": "27\\. júlí",
+      "rank": 1,
+      "top": [
+        [
+          "fjs-sumarlokun-i-mottoeku-fjarsyslunnar-2026",
+          0.891
+        ],
+        [
+          "fjs-opnad-fyrir-skraningu-a-fjarsysludaginn-2026",
+          0.867
+        ],
+        [
+          "fjs-vid-erum-stolt-ad-tilkynna",
+          0.851
+        ],
+        [
+          "fjs-stefnur",
+          0.851
+        ],
+        [
+          "fjs-stefnur",
+          0.85
+        ]
+      ],
+      "answer": "Móttaka Fjársýslunnar var lokuð vegna sumarleyfa dagana 27. júlí–3. ágúst 2026 og opnaði aftur þriðjudaginn 4. ágúst. Heimild: **Sumarlokun í móttöku Fjársýslunnar** — https://island.is/s/fjarsyslan/frett/sumarlokun-i-mottoeku-fjarsyslunnar-2026",
+      "has_fact": true,
+      "cites_source": true,
+      "passed": true,
+      "tools": [
+        "search_documents"
+      ],
+      "seconds": 1.8,
+      "input_tokens": 3686,
+      "output_tokens": 133
+    },
+    {
+      "id": "p11",
+      "set": "paraphrase",
+      "question": "Af hverju sjást greiðslur ríkisins til lækna og hjúkrunarfræðinga sem verktaka ekki á opnum reikningum?",
+      "docs": [
+        "opnir-info"
+      ],
+      "expect": "54430|viðkvæm",
+      "note": "Reworded 29 Oct: first wording (\"hvað læknar fá borgað\") also reads as salaries, and the agent answered that reading correctly.",
+      "rank": 1,
+      "top": [
+        [
+          "opnir-info",
+          0.859
+        ],
+        [
+          "opnir-info",
+          0.857
+        ],
+        [
+          "opnir-info",
+          0.852
+        ],
+        [
+          "fjs-thjonustustefna-fjarsyslunnar",
+          0.851
+        ],
+        [
+          "fjs-greidsluthjonusta",
+          0.849
+        ]
+      ],
+      "answer": "Þær sjást ekki vegna birtingareglna opnu reikninganna. Vefurinn setur sía á bókhaldstegundir þar sem flestar eða allar færslur eru viðkvæmar, og sem dæmi er nefnd tegund 54430 „Læknar, hjúkrunarfræðingar og sjúkraþjálfarar“. Þar segir líka að slíkar færslur geti innihaldið viðkvæmar upplýsingar um einstaklinga, svo þær eru ekki birtar.\n\nHeimild: **Opnir reikningar ríkisins – Um vefinn** — https://opnirreikningar.is/info",
+      "has_fact": true,
+      "cites_source": true,
+      "passed": true,
+      "tools": [
+        "search_documents"
+      ],
+      "seconds": 2.5,
+      "input_tokens": 4286,
+      "output_tokens": 187
+    },
+    {
+      "id": "p12",
+      "set": "paraphrase",
+      "question": "Er hægt að sjá dagpeninga ríkisstarfsmanna á vefnum?",
+      "docs": [
+        "opnir-info"
+      ],
+      "expect": "VSK",
+      "rank": null,
+      "top": [
+        [
+          "fjs-bokhald-og-reikningsskil-rikisins",
+          0.851
+        ],
+        [
+          "fjs-bokhald-og-reikningsskil-rikisins",
+          0.851
+        ],
+        [
+          "fjs-bokhald-og-reikningsskil-rikisins",
+          0.848
+        ],
+        [
+          "fjs-nyskopun",
+          0.847
+        ],
+        [
+          "fjs-rikisreikningur",
+          0.847
+        ]
+      ],
+      "answer": "Já, en ekki sem sérstakur liður á opnirreikningar.is. Vefurinn segir að þar séu birtar upplýsingar um greidda reikninga ráðuneyta og stofnana, og að hann byggi á greiðslum sem fara í gegnum viðskiptaskuldakerfi fyrir kaup á vörum og þjónustu. Í leiðbeiningum Fjársýslunnar kemur líka fram að greiðslur fyrir dagpeninga séu með í „Greiðslubeiðni ferðakostnaður innanlands“.\n\nÞví má sjá slíkar greiðslur ef þær eru skráðar sem reikningsgreiðslur/ferðakostnaður, en ekki líta á vefinn sem fullkomið yfirlit yfir allar dagpeningagreiðslur.\n\nHeimild:\n- Opnir reikningar ríkisins – Um vefinn, https://opnirreikningar.is/info\n- Eyðublöð fjársýslu ríkisins, https://island.is/s/fjarsyslan/eydublod-fjarsyslan",
+      "has_fact": false,
+      "cites_source": true,
+      "passed": false,
+      "tools": [
+        "search_documents",
+        "search_documents",
+        "search_documents"
+      ],
+      "seconds": 6.3,
+      "input_tokens": 7405,
+      "output_tokens": 346
+    },
+    {
+      "id": "p13",
+      "set": "paraphrase",
+      "question": "Hverjir sjá um að borga út laun ríkisstarfsmanna?",
+      "docs": [
+        "fjs-laun"
+      ],
+      "expect": "launakeyrsl|launaþjónust",
+      "rank": 1,
+      "top": [
+        [
+          "fjs-laun",
+          0.868
+        ],
+        [
+          "fjs-laun",
+          0.858
+        ],
+        [
+          "fjs-thjonustustefna-fjarsyslunnar",
+          0.856
+        ],
+        [
+          "fjs-um-fjarsysluna",
+          0.855
+        ],
+        [
+          "fjs-laun",
+          0.849
+        ]
+      ],
+      "answer": "Fjársýslan sér um launavinnslu og greiðir laun inn á reikninga starfsfólks ríkisstofnana. Hún sinnir líka launakeyrslum og stendur skil á launatengdum gjöldum og sköttum.\n\nHeimild: Laun — https://island.is/s/fjarsyslan/laun  \nHeimild: Um Fjársýsluna — https://island.is/s/fjarsyslan/um-fjarsysluna",
+      "has_fact": true,
+      "cites_source": true,
+      "passed": true,
+      "tools": [
+        "search_documents"
+      ],
+      "seconds": 2.0,
+      "input_tokens": 4220,
+      "output_tokens": 152
+    },
+    {
+      "id": "p14",
+      "set": "paraphrase",
+      "question": "Hvaða skref fer reikningur frá birgja í gegnum hjá ríkisstofnun áður en hann er greiddur?",
+      "docs": [
+        "fjs-bokhald-og-reikningsskil-rikisins"
+      ],
+      "expect": "yfirfar|samþykkt",
+      "note": "Reworded 29 Oct: first wording also reads as invoices an agency sends out (innheimta), which the agent answered.",
+      "rank": 5,
+      "top": [
+        [
+          "fjs-innheimta",
+          0.862
+        ],
+        [
+          "fjs-greidsluthjonusta",
+          0.862
+        ],
+        [
+          "fjs-fjarhagsuppgjor",
+          0.861
+        ],
+        [
+          "fjs-innheimta",
+          0.861
+        ],
+        [
+          "fjs-bokhald-og-reikningsskil-rikisins",
+          0.859
+        ]
+      ],
+      "answer": "Samkvæmt Fjársýslunni er dæmigert ferli í bókhaldi ríkisaðila þetta:\n\n1. Reikningur berst.  \n2. Reikningur er yfirfarinn.  \n3. Reikningur er samþykktur.  \n4. Kostnaður er flokkaður á rétt viðfang og fjárheimild.  \n5. Reikningur er bókaður.  \n6. Reikningur er greiddur.  \n\nHeimild: **Bókhald og reikningsskil ríkisins** — https://island.is/s/fjarsyslan/bokhald-og-reikningsskil-rikisins",
+      "has_fact": true,
+      "cites_source": true,
+      "passed": true,
+      "tools": [
+        "search_documents"
+      ],
+      "seconds": 3.0,
+      "input_tokens": 3907,
+      "output_tokens": 189
+    },
+    {
+      "id": "p15",
+      "set": "paraphrase",
+      "question": "Má stofnun eyða meira en henni er úthlutað?",
+      "docs": [
+        "fjs-bokhald-og-reikningsskil-rikisins"
+      ],
+      "expect": "fjárheimild",
+      "rank": null,
+      "top": [
+        [
+          "fjs-greidsluthjonusta",
+          0.84
+        ],
+        [
+          "fjs-thjonustustefna-fjarsyslunnar",
+          0.827
+        ],
+        [
+          "fjs-stefnur",
+          0.824
+        ],
+        [
+          "fjs-greidsluthjonusta",
+          0.823
+        ],
+        [
+          "fjs-um-fjarsysluna",
+          0.823
+        ]
+      ],
+      "answer": "Ekki samkvæmt almennri fjárheimild: stofnun á að halda sig innan þess sem henni er úthlutað. Ég fann þó ekki texta í þeim heimildum sem leitað var í sem segir þetta beint með nákvæmum orðum.\n\nHeimild:\n- Þjónustustefna Fjársýslunnar — https://island.is/s/fjarsyslan/thjonustustefna-fjarsyslunnar\n- Innheimtu- og greiðsluþjónusta — https://island.is/s/fjarsyslan/greidsluthjonusta",
+      "has_fact": true,
+      "cites_source": false,
+      "passed": false,
+      "tools": [
+        "search_documents"
+      ],
+      "seconds": 2.3,
+      "input_tokens": 4035,
+      "output_tokens": 182
+    }
+  ]
+}

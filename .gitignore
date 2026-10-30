@@ -1,0 +1,19 @@
+# Data: downloaded and rebuilt by scripts/, never committed
+data/
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Personal study material, kept local
+practice/

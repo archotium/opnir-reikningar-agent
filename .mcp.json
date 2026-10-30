@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "opnir-reikningar": {
+      "type": "stdio",
+      "command": ".venv/Scripts/python.exe",
+      "args": ["-m", "opnir_agent.mcp_server"],
+      "env": {"PYTHONIOENCODING": "utf-8"}
+    }
+  }
+}

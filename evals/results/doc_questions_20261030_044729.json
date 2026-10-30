@@ -1,0 +1,677 @@
+{
+  "summary": {
+    "questions": 21,
+    "retrieval_hit_at_1": 14,
+    "retrieval_hit_at_5": 18
+  },
+  "results": [
+    {
+      "id": "d01",
+      "question": "Hvenær birtast nýjar upplýsingar á opnum reikningum ríkisins?",
+      "docs": [
+        "opnir-info"
+      ],
+      "expect": "10\\.",
+      "rank": 1,
+      "top": [
+        [
+          "opnir-info",
+          0.87
+        ],
+        [
+          "fjs-rikisreikningur",
+          0.856
+        ],
+        [
+          "fjs-bokhald-og-reikningsskil-rikisins",
+          0.855
+        ],
+        [
+          "fjs-nyskopun",
+          0.852
+        ],
+        [
+          "fjs-thjonustustefna-fjarsyslunnar",
+          0.848
+        ]
+      ]
+    },
+    {
+      "id": "d02",
+      "question": "Eru greiðslur til einstaklinga birtar á opnirreikningar.is?",
+      "docs": [
+        "opnir-info"
+      ],
+      "expect": "VSK|virðisauka",
+      "rank": 2,
+      "top": [
+        [
+          "opnir-info",
+          0.882
+        ],
+        [
+          "opnir-info",
+          0.867
+        ],
+        [
+          "fjs-nu-er-haegt-ad-greida-med-millifaerslu-fyrir-umsoknir-a-island-is",
+          0.863
+        ],
+        [
+          "fjs-siminn-pay-uppfyllir-kroefur-um-rafraen-gagnaskil-fyrir-vidskiptakort-rikisins",
+          0.861
+        ],
+        [
+          "opnir-info",
+          0.861
+        ]
+      ]
+    },
+    {
+      "id": "d03",
+      "question": "Eftir hvaða reikningsskilastöðlum eru reikningsskil A-hluta ríkisins gerð?",
+      "docs": [
+        "fjs-bokhald-og-reikningsskil-rikisins",
+        "fjs-rikisreikningur-2025-kominn-ut"
+      ],
+      "expect": "IPSAS",
+      "rank": 1,
+      "top": [
+        [
+          "fjs-bokhald-og-reikningsskil-rikisins",
+          0.891
+        ],
+        [
+          "fjs-bokhald-og-reikningsskil-rikisins",
+          0.867
+        ],
+        [
+          "fjs-thjonustustefna-fjarsyslunnar",
+          0.86
+        ],
+        [
+          "fjs-rikisreikningur-2025-kominn-ut",
+          0.858
+        ],
+        [
+          "fjs-innheimta",
+          0.854
+        ]
+      ]
+    },
+    {
+      "id": "d04",
+      "question": "Hvað þýðir það að reikningsskil ríkisins séu á rekstrargrunni?",
+      "docs": [
+        "fjs-bokhald-og-reikningsskil-rikisins"
+      ],
+      "expect": "falla til",
+      "rank": 1,
+      "top": [
+        [
+          "fjs-bokhald-og-reikningsskil-rikisins",
+          0.899
+        ],
+        [
+          "fjs-bokhald-og-reikningsskil-rikisins",
+          0.857
+        ],
+        [
+          "fjs-bokhald-og-reikningsskil-rikisins",
+          0.855
+        ],
+        [
+          "opnir-info",
+          0.852
+        ],
+        [
+          "fjs-greidsluthjonusta",
+          0.852
+        ]
+      ]
+    },
+    {
+      "id": "d05",
+      "question": "Hvað er fjárheimild?",
+      "docs": [
+        "fjs-bokhald-og-reikningsskil-rikisins"
+      ],
+      "expect": "Alþing",
+      "rank": 1,
+      "top": [
+        [
+          "fjs-bokhald-og-reikningsskil-rikisins",
+          0.869
+        ],
+        [
+          "fjs-bokhald-og-reikningsskil-rikisins",
+          0.847
+        ],
+        [
+          "fjs-um-fjarsysluna",
+          0.827
+        ],
+        [
+          "fjs-greidsluthjonusta",
+          0.827
+        ],
+        [
+          "fjs-innheimta",
+          0.822
+        ]
+      ]
+    },
+    {
+      "id": "d06",
+      "question": "Hvaða launaþjónustu sinnir Fjársýslan fyrir stofnanir ríkisins?",
+      "docs": [
+        "fjs-laun"
+      ],
+      "expect": "launakeyrsl|launa- og mannauðs",
+      "rank": 3,
+      "top": [
+        [
+          "fjs-um-fjarsysluna",
+          0.894
+        ],
+        [
+          "fjs-thjonustustefna-fjarsyslunnar",
+          0.891
+        ],
+        [
+          "fjs-laun",
+          0.886
+        ],
+        [
+          "fjs-laun",
+          0.884
+        ],
+        [
+          "fjs-um-fjarsysluna",
+          0.883
+        ]
+      ]
+    },
+    {
+      "id": "d07",
+      "question": "Hversu margar stofnanir eru í bókhalds- eða greiðsluþjónustu hjá Fjársýslunni?",
+      "docs": [
+        "fjs-greidsluthjonusta"
+      ],
+      "expect": "300",
+      "rank": 1,
+      "top": [
+        [
+          "fjs-greidsluthjonusta",
+          0.889
+        ],
+        [
+          "fjs-um-fjarsysluna",
+          0.881
+        ],
+        [
+          "fjs-bokhaldsthjonusta",
+          0.878
+        ],
+        [
+          "fjs-eydublod-fjarsyslan",
+          0.872
+        ],
+        [
+          "fjs-thjonustustefna-fjarsyslunnar",
+          0.871
+        ]
+      ]
+    },
+    {
+      "id": "d08",
+      "question": "Hvert er markmiðið með nýsköpunarverkefninu um rafræn gagnaskil fyrir viðskiptakort ríkisins?",
+      "docs": [
+        "fjs-siminn-pay-uppfyllir-kroefur-um-rafraen-gagnaskil-fyrir-vidskiptakort-rikisins",
+        "fjs-fyrsta-lausnin-uppfyllir-kroefur-um-rafraen-gagnaskil-fyrir-vidskiptakort-rikisins"
+      ],
+      "expect": "Orra|handavinn",
+      "rank": 1,
+      "top": [
+        [
+          "fjs-siminn-pay-uppfyllir-kroefur-um-rafraen-gagnaskil-fyrir-vidskiptakort-rikisins",
+          0.893
+        ],
+        [
+          "fjs-fyrsta-lausnin-uppfyllir-kroefur-um-rafraen-gagnaskil-fyrir-vidskiptakort-rikisins",
+          0.891
+        ],
+        [
+          "fjs-nordic-gov-tech-alliance",
+          0.863
+        ],
+        [
+          "fjs-throun-thjonustulags-gagnavistkerfis-og-model-context-protocol-mcp-vidmots",
+          0.861
+        ],
+        [
+          "fjs-nyskopunarverdlaun-hins-opinbera",
+          0.851
+        ]
+      ]
+    },
+    {
+      "id": "d09",
+      "question": "Í hvað óskaði Fjársýslan eftir tilboðum í tengslum við MCP?",
+      "docs": [
+        "fjs-throun-thjonustulags-gagnavistkerfis-og-model-context-protocol-mcp-vidmots"
+      ],
+      "expect": "gagnavistkerf",
+      "rank": 1,
+      "top": [
+        [
+          "fjs-throun-thjonustulags-gagnavistkerfis-og-model-context-protocol-mcp-vidmots",
+          0.862
+        ],
+        [
+          "fjs-thjonustustefna-fjarsyslunnar",
+          0.829
+        ],
+        [
+          "fjs-throun-thjonustulags-gagnavistkerfis-og-model-context-protocol-mcp-vidmots",
+          0.826
+        ],
+        [
+          "fjs-maelabord",
+          0.825
+        ],
+        [
+          "fjs-innkaup-og-sala",
+          0.823
+        ]
+      ]
+    },
+    {
+      "id": "d10",
+      "question": "Hvenær var móttaka Fjársýslunnar lokuð vegna sumarleyfa 2026?",
+      "docs": [
+        "fjs-sumarlokun-i-mottoeku-fjarsyslunnar-2026"
+      ],
+      "expect": "27\\. júlí",
+      "rank": 1,
+      "top": [
+        [
+          "fjs-sumarlokun-i-mottoeku-fjarsyslunnar-2026",
+          0.891
+        ],
+        [
+          "fjs-opnad-fyrir-skraningu-a-fjarsysludaginn-2026",
+          0.867
+        ],
+        [
+          "fjs-vid-erum-stolt-ad-tilkynna",
+          0.851
+        ],
+        [
+          "fjs-stefnur",
+          0.851
+        ],
+        [
+          "fjs-stefnur",
+          0.85
+        ]
+      ]
+    },
+    {
+      "id": "p11",
+      "set": "paraphrase",
+      "question": "Af hverju sjást greiðslur ríkisins til lækna og hjúkrunarfræðinga sem verktaka ekki á opnum reikningum?",
+      "docs": [
+        "opnir-info"
+      ],
+      "expect": "54430|viðkvæm",
+      "note": "Reworded 29 Oct: first wording (\"hvað læknar fá borgað\") also reads as salaries, and the agent answered that reading correctly.",
+      "rank": 1,
+      "top": [
+        [
+          "opnir-info",
+          0.859
+        ],
+        [
+          "opnir-info",
+          0.857
+        ],
+        [
+          "opnir-info",
+          0.852
+        ],
+        [
+          "fjs-thjonustustefna-fjarsyslunnar",
+          0.851
+        ],
+        [
+          "fjs-greidsluthjonusta",
+          0.849
+        ]
+      ]
+    },
+    {
+      "id": "p12",
+      "set": "paraphrase",
+      "question": "Er hægt að sjá dagpeninga ríkisstarfsmanna á vefnum?",
+      "docs": [
+        "opnir-info"
+      ],
+      "expect": "VSK",
+      "rank": null,
+      "top": [
+        [
+          "fjs-bokhald-og-reikningsskil-rikisins",
+          0.851
+        ],
+        [
+          "fjs-bokhald-og-reikningsskil-rikisins",
+          0.851
+        ],
+        [
+          "fjs-bokhald-og-reikningsskil-rikisins",
+          0.848
+        ],
+        [
+          "fjs-nyskopun",
+          0.847
+        ],
+        [
+          "fjs-rikisreikningur",
+          0.847
+        ]
+      ]
+    },
+    {
+      "id": "p13",
+      "set": "paraphrase",
+      "question": "Hverjir sjá um að borga út laun ríkisstarfsmanna?",
+      "docs": [
+        "fjs-laun"
+      ],
+      "expect": "launakeyrsl|launaþjónust",
+      "rank": 1,
+      "top": [
+        [
+          "fjs-laun",
+          0.868
+        ],
+        [
+          "fjs-laun",
+          0.858
+        ],
+        [
+          "fjs-thjonustustefna-fjarsyslunnar",
+          0.856
+        ],
+        [
+          "fjs-um-fjarsysluna",
+          0.855
+        ],
+        [
+          "fjs-laun",
+          0.849
+        ]
+      ]
+    },
+    {
+      "id": "p14",
+      "set": "paraphrase",
+      "question": "Hvaða skref fer reikningur frá birgja í gegnum hjá ríkisstofnun áður en hann er greiddur?",
+      "docs": [
+        "fjs-bokhald-og-reikningsskil-rikisins"
+      ],
+      "expect": "yfirfar|samþykkt",
+      "note": "Reworded 29 Oct: first wording also reads as invoices an agency sends out (innheimta), which the agent answered.",
+      "rank": 5,
+      "top": [
+        [
+          "fjs-innheimta",
+          0.862
+        ],
+        [
+          "fjs-greidsluthjonusta",
+          0.862
+        ],
+        [
+          "fjs-fjarhagsuppgjor",
+          0.861
+        ],
+        [
+          "fjs-innheimta",
+          0.861
+        ],
+        [
+          "fjs-bokhald-og-reikningsskil-rikisins",
+          0.859
+        ]
+      ]
+    },
+    {
+      "id": "p15",
+      "set": "paraphrase",
+      "question": "Má stofnun eyða meira en henni er úthlutað?",
+      "docs": [
+        "fjs-bokhald-og-reikningsskil-rikisins"
+      ],
+      "expect": "fjárheimild",
+      "rank": null,
+      "top": [
+        [
+          "fjs-greidsluthjonusta",
+          0.84
+        ],
+        [
+          "fjs-thjonustustefna-fjarsyslunnar",
+          0.827
+        ],
+        [
+          "fjs-stefnur",
+          0.824
+        ],
+        [
+          "fjs-greidsluthjonusta",
+          0.823
+        ],
+        [
+          "fjs-um-fjarsysluna",
+          0.823
+        ]
+      ]
+    },
+    {
+      "id": "p16",
+      "set": "paraphrase",
+      "question": "Hver stýrir Fjársýslunni?",
+      "docs": [
+        "fjs-skipurit-fjs",
+        "fjs-stefnur",
+        "fjs-nyskopunarverdlaun-hins-opinbera"
+      ],
+      "expect": "Ingþór",
+      "rank": null,
+      "top": [
+        [
+          "fjs-thjonusta-fjs",
+          0.85
+        ],
+        [
+          "fjs-t-hjonustukerfi-fjarsyslunnar",
+          0.842
+        ],
+        [
+          "fjs-fjarsysluskolinn",
+          0.842
+        ],
+        [
+          "fjs-um-fjarsysluna",
+          0.841
+        ],
+        [
+          "fjs-thjonustustefna-fjarsyslunnar",
+          0.841
+        ]
+      ]
+    },
+    {
+      "id": "p17",
+      "set": "paraphrase",
+      "question": "Get ég borgað fyrir umsókn á Ísland.is án þess að nota kort?",
+      "docs": [
+        "fjs-nu-er-haegt-ad-greida-med-millifaerslu-fyrir-umsoknir-a-island-is"
+      ],
+      "expect": "millifærsl",
+      "rank": 1,
+      "top": [
+        [
+          "fjs-nu-er-haegt-ad-greida-med-millifaerslu-fyrir-umsoknir-a-island-is",
+          0.874
+        ],
+        [
+          "fjs-greidsluthjonusta",
+          0.854
+        ],
+        [
+          "fjs-innheimta",
+          0.848
+        ],
+        [
+          "fjs-nu-er-haegt-ad-greida-med-millifaerslu-fyrir-umsoknir-a-island-is",
+          0.844
+        ],
+        [
+          "fjs-siminn-pay-uppfyllir-kroefur-um-rafraen-gagnaskil-fyrir-vidskiptakort-rikisins",
+          0.843
+        ]
+      ]
+    },
+    {
+      "id": "p18",
+      "set": "paraphrase",
+      "question": "Hvaða fyrirtæki varð fyrst til að standast kröfur ríkisins um sjálfvirk gögn frá greiðslukortum?",
+      "docs": [
+        "fjs-fyrsta-lausnin-uppfyllir-kroefur-um-rafraen-gagnaskil-fyrir-vidskiptakort-rikisins"
+      ],
+      "expect": "Kardio",
+      "rank": 1,
+      "top": [
+        [
+          "fjs-fyrsta-lausnin-uppfyllir-kroefur-um-rafraen-gagnaskil-fyrir-vidskiptakort-rikisins",
+          0.853
+        ],
+        [
+          "fjs-siminn-pay-uppfyllir-kroefur-um-rafraen-gagnaskil-fyrir-vidskiptakort-rikisins",
+          0.84
+        ],
+        [
+          "fjs-greidsluthjonusta",
+          0.82
+        ],
+        [
+          "fjs-greidsluthjonusta",
+          0.818
+        ],
+        [
+          "fjs-gildi-og-aherslur",
+          0.818
+        ]
+      ]
+    },
+    {
+      "id": "p19",
+      "set": "paraphrase",
+      "question": "Hvaða gögn eru komin inn þegar stofnanir byrja að gera áætlun um reksturinn 2027?",
+      "docs": [
+        "fjs-opnad-fyrir-gerd-rekstraraaetlunar-2027-i-akra"
+      ],
+      "expect": "ORRA|launagögn",
+      "rank": 1,
+      "top": [
+        [
+          "fjs-opnad-fyrir-gerd-rekstraraaetlunar-2027-i-akra",
+          0.881
+        ],
+        [
+          "fjs-fjarhagsuppgjor",
+          0.867
+        ],
+        [
+          "fjs-rikisreikningur-2025-kominn-ut",
+          0.863
+        ],
+        [
+          "fjs-fjarhagsuppgjor",
+          0.862
+        ],
+        [
+          "fjs-rikisreikningur-2025-kominn-ut",
+          0.86
+        ]
+      ]
+    },
+    {
+      "id": "p20",
+      "set": "paraphrase",
+      "question": "Hefur Fjársýslan fengið verðlaun fyrir jafnrétti kvenna og karla meðal yfirmanna?",
+      "docs": [
+        "fjs-vid-erum-stolt-ad-tilkynna"
+      ],
+      "expect": "Jafnvægisvog",
+      "rank": 3,
+      "top": [
+        [
+          "fjs-stefnur",
+          0.874
+        ],
+        [
+          "fjs-stefnur",
+          0.855
+        ],
+        [
+          "fjs-vid-erum-stolt-ad-tilkynna",
+          0.855
+        ],
+        [
+          "fjs-stefnur",
+          0.853
+        ],
+        [
+          "fjs-stefnur",
+          0.844
+        ]
+      ]
+    },
+    {
+      "id": "p21",
+      "set": "paraphrase",
+      "question": "Hvað þarf ég að hafa áður en ég fer á námskeið hjá Fjársýslunni?",
+      "docs": [
+        "fjs-namskeid-og-fraedsla"
+      ],
+      "expect": "yfirmann|leyfi",
+      "rank": 1,
+      "top": [
+        [
+          "fjs-namskeid-og-fraedsla",
+          0.885
+        ],
+        [
+          "fjs-thjonustustefna-fjarsyslunnar",
+          0.874
+        ],
+        [
+          "fjs-fjarsysluskolinn",
+          0.872
+        ],
+        [
+          "fjs-thjonustustefna-fjarsyslunnar",
+          0.869
+        ],
+        [
+          "fjs-thjonustustefna-fjarsyslunnar",
+          0.864
+        ]
+      ]
+    }
+  ]
+}

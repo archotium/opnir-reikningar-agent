@@ -1,0 +1,21 @@
+{"id": "d01", "question": "Hvenær birtast nýjar upplýsingar á opnum reikningum ríkisins?", "docs": ["opnir-info"], "expect": "10\\."}
+{"id": "d02", "question": "Eru greiðslur til einstaklinga birtar á opnirreikningar.is?", "docs": ["opnir-info"], "expect": "VSK|virðisauka"}
+{"id": "d03", "question": "Eftir hvaða reikningsskilastöðlum eru reikningsskil A-hluta ríkisins gerð?", "docs": ["fjs-bokhald-og-reikningsskil-rikisins", "fjs-rikisreikningur-2025-kominn-ut"], "expect": "IPSAS"}
+{"id": "d04", "question": "Hvað þýðir það að reikningsskil ríkisins séu á rekstrargrunni?", "docs": ["fjs-bokhald-og-reikningsskil-rikisins"], "expect": "falla til"}
+{"id": "d05", "question": "Hvað er fjárheimild?", "docs": ["fjs-bokhald-og-reikningsskil-rikisins"], "expect": "Alþing"}
+{"id": "d06", "question": "Hvaða launaþjónustu sinnir Fjársýslan fyrir stofnanir ríkisins?", "docs": ["fjs-laun", "fjs-um-fjarsysluna"], "expect": "launakeyrsl|launa- og mannauðs"}
+{"id": "d07", "question": "Hversu margar stofnanir eru í bókhalds- eða greiðsluþjónustu hjá Fjársýslunni?", "docs": ["fjs-greidsluthjonusta"], "expect": "300"}
+{"id": "d08", "question": "Hvert er markmiðið með nýsköpunarverkefninu um rafræn gagnaskil fyrir viðskiptakort ríkisins?", "docs": ["fjs-siminn-pay-uppfyllir-kroefur-um-rafraen-gagnaskil-fyrir-vidskiptakort-rikisins", "fjs-fyrsta-lausnin-uppfyllir-kroefur-um-rafraen-gagnaskil-fyrir-vidskiptakort-rikisins"], "expect": "Orra|handavinn"}
+{"id": "d09", "question": "Í hvað óskaði Fjársýslan eftir tilboðum í tengslum við MCP?", "docs": ["fjs-throun-thjonustulags-gagnavistkerfis-og-model-context-protocol-mcp-vidmots"], "expect": "gagnavistkerf"}
+{"id": "d10", "question": "Hvenær var móttaka Fjársýslunnar lokuð vegna sumarleyfa 2026?", "docs": ["fjs-sumarlokun-i-mottoeku-fjarsyslunnar-2026"], "expect": "27\\. júlí"}
+{"id": "p11", "set": "paraphrase", "question": "Af hverju sjást greiðslur ríkisins til lækna og hjúkrunarfræðinga sem verktaka ekki á opnum reikningum?", "docs": ["opnir-info"], "expect": "54430|viðkvæm", "note": "Reworded 29 Oct: first wording (\"hvað læknar fá borgað\") also reads as salaries, and the agent answered that reading correctly."}
+{"id": "p12", "set": "paraphrase", "question": "Er hægt að sjá dagpeninga ríkisstarfsmanna á vefnum?", "docs": ["opnir-info"], "expect": "VSK"}
+{"id": "p13", "set": "paraphrase", "question": "Hverjir sjá um að borga út laun ríkisstarfsmanna?", "docs": ["fjs-laun"], "expect": "launakeyrsl|launaþjónust"}
+{"id": "p14", "set": "paraphrase", "question": "Hvaða skref fer reikningur frá birgja í gegnum hjá ríkisstofnun áður en hann er greiddur?", "docs": ["fjs-bokhald-og-reikningsskil-rikisins"], "expect": "yfirfar|samþykkt", "note": "Reworded 29 Oct: first wording also reads as invoices an agency sends out (innheimta), which the agent answered."}
+{"id": "p15", "set": "paraphrase", "question": "Má stofnun eyða meira en henni er úthlutað?", "docs": ["fjs-bokhald-og-reikningsskil-rikisins"], "expect": "fjárheimild"}
+{"id": "p16", "set": "paraphrase", "question": "Hver stýrir Fjársýslunni?", "docs": ["fjs-skipurit-fjs", "fjs-stefnur", "fjs-nyskopunarverdlaun-hins-opinbera"], "expect": "Ingþór"}
+{"id": "p17", "set": "paraphrase", "question": "Get ég borgað fyrir umsókn á Ísland.is án þess að nota kort?", "docs": ["fjs-nu-er-haegt-ad-greida-med-millifaerslu-fyrir-umsoknir-a-island-is"], "expect": "millifærsl"}
+{"id": "p18", "set": "paraphrase", "question": "Hvaða fyrirtæki varð fyrst til að standast kröfur ríkisins um sjálfvirk gögn frá greiðslukortum?", "docs": ["fjs-fyrsta-lausnin-uppfyllir-kroefur-um-rafraen-gagnaskil-fyrir-vidskiptakort-rikisins"], "expect": "Kardio"}
+{"id": "p19", "set": "paraphrase", "question": "Hvaða gögn eru komin inn þegar stofnanir byrja að gera áætlun um reksturinn 2027?", "docs": ["fjs-opnad-fyrir-gerd-rekstraraaetlunar-2027-i-akra"], "expect": "ORRA|launagögn"}
+{"id": "p20", "set": "paraphrase", "question": "Hefur Fjársýslan fengið verðlaun fyrir jafnrétti kvenna og karla meðal yfirmanna?", "docs": ["fjs-vid-erum-stolt-ad-tilkynna"], "expect": "Jafnvægisvog"}
+{"id": "p21", "set": "paraphrase", "question": "Hvað þarf ég að hafa áður en ég fer á námskeið hjá Fjársýslunni?", "docs": ["fjs-namskeid-og-fraedsla"], "expect": "yfirmann|leyfi"}

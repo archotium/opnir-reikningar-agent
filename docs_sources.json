@@ -1,0 +1,282 @@
+[
+  {
+    "id": "opnir-info",
+    "title": "Opnir reikningar ríkisins – Um vefinn",
+    "url": "https://opnirreikningar.is/info",
+    "file": "opnir_info.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-eydublod-fjarsyslan",
+    "title": "Eyðublöð fjársýslu ríkisins",
+    "url": "https://island.is/s/fjarsyslan/eydublod-fjarsyslan",
+    "file": "island_eydublod-fjarsyslan.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-fyrsta-lausnin-uppfyllir-kroefur-um-rafraen-gagnaskil-fyrir-vidskiptakort-rikisins",
+    "title": "Fyrsta lausnin uppfyllir kröfur um rafræn gagnaskil fyrir viðskiptakort ríkisins",
+    "url": "https://island.is/s/fjarsyslan/frett/fyrsta-lausnin-uppfyllir-kroefur-um-rafraen-gagnaskil-fyrir-vidskiptakort-rikisins",
+    "file": "island_fyrsta-lausnin-uppfyllir-kroefur-um-rafraen-gagnaskil-fyrir-vidskiptakort-rikisins.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-opnad-fyrir-skraningu-a-fjarsysludaginn-2026",
+    "title": "Opnað fyrir skráningu á Fjársýsludaginn 2026",
+    "url": "https://island.is/s/fjarsyslan/frett/opnad-fyrir-skraningu-a-fjarsysludaginn-2026",
+    "file": "island_opnad-fyrir-skraningu-a-fjarsysludaginn-2026.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-siminn-pay-uppfyllir-kroefur-um-rafraen-gagnaskil-fyrir-vidskiptakort-rikisins",
+    "title": "Síminn Pay uppfyllir kröfur um rafræn gagnaskil fyrir viðskiptakort ríkisins",
+    "url": "https://island.is/s/fjarsyslan/frett/siminn-pay-uppfyllir-kroefur-um-rafraen-gagnaskil-fyrir-vidskiptakort-rikisins",
+    "file": "island_siminn-pay-uppfyllir-kroefur-um-rafraen-gagnaskil-fyrir-vidskiptakort-rikisins.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-nyskopun",
+    "title": "Opinber nýsköpun",
+    "url": "https://island.is/s/fjarsyslan/nyskopun",
+    "file": "island_nyskopun.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-samningakerfi-fjarsyslunnar",
+    "title": "Skuldbindandi  samningar",
+    "url": "https://island.is/s/fjarsyslan/samningakerfi-fjarsyslunnar",
+    "file": "island_samningakerfi-fjarsyslunnar.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-thjonusta-fjs",
+    "title": "Þjónusta Fjársýslunnar",
+    "url": "https://island.is/s/fjarsyslan/thjonusta-fjs",
+    "file": "island_thjonusta-fjs.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-um-fjarsysluna",
+    "title": "Um Fjársýsluna",
+    "url": "https://island.is/s/fjarsyslan/um-fjarsysluna",
+    "file": "island_um-fjarsysluna.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-utgefid-efni",
+    "title": "Útgefið efni",
+    "url": "https://island.is/s/fjarsyslan/utgefid-efni",
+    "file": "island_utgefid-efni.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-nu-er-haegt-ad-greida-med-millifaerslu-fyrir-umsoknir-a-island-is",
+    "title": "Nú er hægt að greiða með millifærslu fyrir umsóknir á Ísland.is",
+    "url": "https://island.is/s/fjarsyslan/frett/nu-er-haegt-ad-greida-med-millifaerslu-fyrir-umsoknir-a-island-is",
+    "file": "island_nu-er-haegt-ad-greida-med-millifaerslu-fyrir-umsoknir-a-island-is.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-opnad-fyrir-gerd-rekstraraaetlunar-2027-i-akra",
+    "title": "Opnað fyrir gerð rekstraráætlunar 2027 í AKRA",
+    "url": "https://island.is/s/fjarsyslan/frett/opnad-fyrir-gerd-rekstraraaetlunar-2027-i-akra",
+    "file": "island_opnad-fyrir-gerd-rekstraraaetlunar-2027-i-akra.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-reynslumidlun-opinberra-frumkvoedla-23-september",
+    "title": "Reynslumiðlun opinberra frumkvöðla 23. september",
+    "url": "https://island.is/s/fjarsyslan/frett/reynslumidlun-opinberra-frumkvoedla-23-september",
+    "file": "island_reynslumidlun-opinberra-frumkvoedla-23-september.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-rikisreikningur-2025-kominn-ut",
+    "title": "Ríkisreikningur 2025 kominn út",
+    "url": "https://island.is/s/fjarsyslan/frett/rikisreikningur-2025-kominn-ut",
+    "file": "island_rikisreikningur-2025-kominn-ut.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-sumarlokun-i-mottoeku-fjarsyslunnar-2026",
+    "title": "Sumarlokun í móttöku Fjársýslunnar",
+    "url": "https://island.is/s/fjarsyslan/frett/sumarlokun-i-mottoeku-fjarsyslunnar-2026",
+    "file": "island_sumarlokun-i-mottoeku-fjarsyslunnar-2026.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-throun-thjonustulags-gagnavistkerfis-og-model-context-protocol-mcp-vidmots",
+    "title": "Þróun þjónustulags gagnavistkerfis og Model Context Protocol (MCP) viðmóts.",
+    "url": "https://island.is/s/fjarsyslan/frett/throun-thjonustulags-gagnavistkerfis-og-model-context-protocol-mcp-vidmots",
+    "file": "island_throun-thjonustulags-gagnavistkerfis-og-model-context-protocol-mcp-vidmots.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-vid-erum-stolt-ad-tilkynna",
+    "title": "Við kynnum með stolti!",
+    "url": "https://island.is/s/fjarsyslan/frett/vid-erum-stolt-ad-tilkynna",
+    "file": "island_vid-erum-stolt-ad-tilkynna.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-namskeid-og-fraedsla",
+    "title": "Ráðstefnur og námskeið",
+    "url": "https://island.is/s/fjarsyslan/namskeid-og-fraedsla",
+    "file": "island_namskeid-og-fraedsla.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-nordic-gov-tech-alliance",
+    "title": "Nordic GovTech Alliance",
+    "url": "https://island.is/s/fjarsyslan/nordic-gov-tech-alliance",
+    "file": "island_nordic-gov-tech-alliance.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-nyskoepunardagur-hins-opinbera",
+    "title": "Nýsköpunardagur hins opinbera",
+    "url": "https://island.is/s/fjarsyslan/nyskoepunardagur-hins-opinbera",
+    "file": "island_nyskoepunardagur-hins-opinbera.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-nyskopunarverdlaun-hins-opinbera",
+    "title": "Nýsköpunarverðlaun hins opinbera",
+    "url": "https://island.is/s/fjarsyslan/nyskopunarverdlaun-hins-opinbera",
+    "file": "island_nyskopunarverdlaun-hins-opinbera.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-opinberir-frumkvodlar",
+    "title": "Opinberir frumkvöðlar",
+    "url": "https://island.is/s/fjarsyslan/opinberir-frumkvodlar",
+    "file": "island_opinberir-frumkvodlar.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-skuldbindandi-samningakerfi-fjarsyslunnar-fyrirspurn",
+    "title": "Skuldbindandi samningakerfi Fjársýslunnar",
+    "url": "https://island.is/s/fjarsyslan/skuldbindandi-samningakerfi-fjarsyslunnar-fyrirspurn",
+    "file": "island_skuldbindandi-samningakerfi-fjarsyslunnar-fyrirspurn.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-maelabord",
+    "title": "Mælaborð Fjársýslunnar",
+    "url": "https://island.is/s/fjarsyslan/Maelabord",
+    "file": "island_maelabord.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-bokhaldsthjonusta",
+    "title": "Bókhaldsþjónusta",
+    "url": "https://island.is/s/fjarsyslan/bokhaldsthjonusta",
+    "file": "island_bokhaldsthjonusta.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-fjarhagsuppgjor",
+    "title": "Uppgjör",
+    "url": "https://island.is/s/fjarsyslan/fjarhagsuppgjor",
+    "file": "island_fjarhagsuppgjor.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-fjarsysluskolinn",
+    "title": "Fjársýsluskólinn",
+    "url": "https://island.is/s/fjarsyslan/fjarsysluskolinn",
+    "file": "island_fjarsysluskolinn.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-greidsluthjonusta",
+    "title": "Innheimtu- og greiðsluþjónusta",
+    "url": "https://island.is/s/fjarsyslan/greidsluthjonusta",
+    "file": "island_greidsluthjonusta.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-innheimta",
+    "title": "Innheimta",
+    "url": "https://island.is/s/fjarsyslan/innheimta",
+    "file": "island_innheimta.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-innkaup-og-sala",
+    "title": "Innkaup og sala",
+    "url": "https://island.is/s/fjarsyslan/innkaup-og-sala",
+    "file": "island_innkaup-og-sala.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-laun",
+    "title": "Laun",
+    "url": "https://island.is/s/fjarsyslan/laun",
+    "file": "island_laun.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-mannaudsradgjof",
+    "title": "Mannauðsráðgjöf",
+    "url": "https://island.is/s/fjarsyslan/mannaudsradgjof",
+    "file": "island_mannaudsradgjof.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-t-hjonustukerfi-fjarsyslunnar",
+    "title": "Þjónustukerfi Fjársýslunnar",
+    "url": "https://island.is/s/fjarsyslan/t-hjonustukerfi-fjarsyslunnar",
+    "file": "island_t-hjonustukerfi-fjarsyslunnar.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-thjonustustefna-fjarsyslunnar",
+    "title": "Þjónustustefna Fjársýslunnar",
+    "url": "https://island.is/s/fjarsyslan/thjonustustefna-fjarsyslunnar",
+    "file": "island_thjonustustefna-fjarsyslunnar.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-upplysingatorg",
+    "title": "Upplýsingatorg",
+    "url": "https://island.is/s/fjarsyslan/upplysingatorg",
+    "file": "island_upplysingatorg.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-gildi-og-aherslur",
+    "title": "Gildi og áherslur",
+    "url": "https://island.is/s/fjarsyslan/gildi-og-aherslur",
+    "file": "island_gildi-og-aherslur.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-skipurit-fjs",
+    "title": "Skipurit",
+    "url": "https://island.is/s/fjarsyslan/skipurit-fjs",
+    "file": "island_skipurit-fjs.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-stefnur",
+    "title": "Stefnur",
+    "url": "https://island.is/s/fjarsyslan/stefnur",
+    "file": "island_stefnur.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-bokhald-og-reikningsskil-rikisins",
+    "title": "Bókhald og reikningsskil ríkisins",
+    "url": "https://island.is/s/fjarsyslan/bokhald-og-reikningsskil-rikisins",
+    "file": "island_bokhald-og-reikningsskil-rikisins.html",
+    "kind": "html"
+  },
+  {
+    "id": "fjs-rikisreikningur",
+    "title": "Ríkisreikningur",
+    "url": "https://island.is/s/fjarsyslan/rikisreikningur",
+    "file": "island_rikisreikningur.html",
+    "kind": "html"
+  }
+]
