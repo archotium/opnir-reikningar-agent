@@ -1,0 +1,14 @@
+# Python 3.11. Versions are the ones the eval results were measured with.
+# torch: the CPU build is enough (the embedding model is small). On Linux, install it first with
+#   pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
+# or pip pulls the much larger CUDA build.
+openai==3.40.0
+python-dotenv==1.2.4
+numpy==2.4.6
+sentence-transformers==6.2.0
+torch==2.15.0
+pypdf==6.21.4
+mcp==2.3.0
+pandas==3.1.0
+python-calamine==0.9.0
+pytest==9.2.0

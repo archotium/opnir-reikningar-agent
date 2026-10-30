@@ -1419,7 +1419,7 @@
       "sub": "",
       "passed": false,
       "missing": [
-        "ekki (birt|með|innifal|hluti)|birt\\w* ekki|eru ekki (birt|með)"
+        "ekki (birt|með|innifal|hluti)|birt\\w* ekki|eru ekki (birt|með)|inniheldur ekki erlend"
       ],
       "invented": false,
       "question": "Hversu mikið greiddi ríkið í erlendri mynt árið 2025?",
@@ -2420,6 +2420,6 @@
       "seconds": 2.9
     }
   ],
-  "regraded_at": "2026-10-30T04:59:34",
+  "regraded_at": "2026-10-30T05:20:17",
   "redacted": "t04 asked about a real individual supplier by name; the name was replaced by [nafn fjarlægt] in the saved question and answers after the run (30 Oct 2026). The question now uses a very common name."
 }

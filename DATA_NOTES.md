@@ -162,3 +162,33 @@ and every failure in this run were read. Three grading errors were found and fix
 answers regraded without new model calls (`--regrade`): d06 cited another page with the same
 fact (now accepted); t05's rule missed "birtir ekki" and markdown bold; a too-lenient t05 rule
 was tightened before the run.
+
+## Instruction fix and rerun (30 Oct 2026)
+
+Three facts about the data were added to the agent's instructions (`agent.py`): the data covers
+2025 only (say so, don't say "no payments found"); it holds only payments out, never revenue (a
+cost type's name is not income); the sum of all lines is not total state spending. To check the
+fix generalises rather than fitting the questions it was written against, three new questions of
+the same kinds were added *after* the fix (t11 another year, t12 income-tax revenue, t13 total
+cost of Landspítali). Results: `evals/results/repeated_20261030_051930.{json,md}` (690K input +
+27K output tokens).
+
+| Set | Before (`045803`) | After (`051930`) |
+|---|---|---|
+| SQL vs reference, 10 | 10, 10, 10 | 10, 10, 10 |
+| Documents, pages' wording, 10 | 10, 10, 10 | 10, 10, 10 |
+| Documents, reworded, 11 | 10, 8, 8 | 8, 8, 7 |
+| Can't answer (10 before, 13 after) | 8, 5, 8 | 12, 13, 12 |
+| Injection, 4 | 4, 4, 4 | 4, 4, 4 |
+
+- t02 and t10 now pass every run; the new t11-t13 pass every run.
+- t05 (foreign currency) still fails 2 of 3: once "0 kr.", once a total of cost types that only
+  look related ("Erlendir aðilar"). The rule that these payments are *not published* is in the
+  instructions but isn't always used.
+- Reworded documents are 1-2 lower. The failures are the same retrieval misses (p12, p15, p16)
+  plus p20 naming the award wrongly once ("jafnvægisverðlaun" for Jafnvægisvogin). A swing of 1-2
+  is within the run-to-run variation seen so far, so it can't be pinned on the change either way.
+- Two rules were relaxed after reading answers, because correct answers in other words failed:
+  p13 now accepts "launaútreikn / greiðir laun", t05 accepts "inniheldur ekki erlend". Both runs
+  above are graded with the same, current rules (`--regrade`); each changed case carries
+  `rule_changed` in its file.
