@@ -7,6 +7,10 @@ AI-agent sem svarar spurningum á íslensku um greiðslur ríkisstofnana árið 
 ríkisins), og um starfsemi Fjársýslunnar, úr 40 síðum hennar. Hver tala kemur úr SQL-fyrirspurn
 sem agentinn sýnir, og hvert svar úr skjölum vísar í síðuna sem það byggir á.
 
+![Agentinn svarar tveimur spurningum](assets/demo.gif)
+
+*Raunveruleg keyrsla í rauntíma: ein spurning svöruð með SQL og ein úr skjölum, með heimild.*
+
 ```text
 > python -m opnir_agent "Hvað greiddi Veðurstofa Íslands mikið samtals árið 2025?"
 
@@ -92,6 +96,10 @@ An AI agent that answers questions in Icelandic about what Iceland's state agenc
 invoice lines published by Fjársýsla ríkisins, the state's financial management authority), and
 about Fjársýslan's own services, from 40 of its web pages. Every number comes from an SQL query
 the agent shows, and every answer drawn from the documents cites the page it came from.
+
+![The agent answering two questions](assets/demo.gif)
+
+*A real run in real time: one question answered with SQL and one from the documents, with its source.*
 
 ## How it works
 
