@@ -106,7 +106,10 @@ def _is_table(text: str) -> bool:
 
 def _model():
     from sentence_transformers import SentenceTransformer  # slow import: only when needed
-    return SentenceTransformer(MODEL_NAME)
+    try:  # cached under data/hf after the first build: load it without asking the Hub
+        return SentenceTransformer(MODEL_NAME, local_files_only=True)
+    except OSError:  # not downloaded yet
+        return SentenceTransformer(MODEL_NAME)
 
 
 def _drop_boilerplate(pages: list[tuple[dict, int | None, str]]) -> list[tuple[dict, int | None, str]]:
