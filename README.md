@@ -9,7 +9,7 @@ sem agentinn sýnir, og hvert svar úr skjölum vísar í síðuna sem það byg
 
 ![Agentinn svarar tveimur spurningum](assets/demo.gif)
 
-*Raunveruleg keyrsla í rauntíma: ein spurning svöruð með SQL og ein úr skjölum, með heimild.*
+*Raunveruleg keyrsla í rauntíma: ein spurning svöruð með SQL og önnur úr skjölum, ásamt heimild.*
 
 ```text
 > python -m opnir_agent "Hvað greiddi Veðurstofa Íslands mikið samtals árið 2025?"
@@ -48,18 +48,19 @@ Líkanið snertir aldrei gögnin sjálft; það getur aðeins beðið um eitt af
 | `find_names` | Finnur rétt heiti stofnunar, birgis eða kostnaðartegundar ("Veðurstofan" → "Veðurstofa Íslands") |
 | `search_documents` | Merkingarleit (RAG) í síðum Fjársýslunnar; svarið verður að vísa í heimild, og kóðinn athugar það |
 
-- **Öryggi í 4 lögum** (`opnir_agent/db.py`): skrifvarin tenging; *authorizer* sem leyfir aðeins
-  lestur áður en skipun keyrir; ein skipun í senn með 10 s tímamörkum; mest 200 línur til baka.
+- **Öryggi í 4 lögum** (`opnir_agent/db.py`): skrifvarin tenging; *authorizer* sem leyfir eingöngu
+  lestur áður en skipun er keyrð; ein skipun í senn með 10 sekúndna tímamörkum; í mesta lagi
+  200 línur til baka.
 - **Persónuvernd** (`opnir_agent/privacy.py`): 1.318 birgjar sem þekkjast sem einstaklingar af
-  nafninu birtast sem `[einstaklingur]`. Falið við upptök, ekki í úttaki, svo engin fyrirspurn
-  nær nafninu. Heildartölur breytast ekki.
+  nafni birtast sem `[einstaklingur]`. Upplýsingarnar eru faldar við upptök en ekki í úttaki, þannig að
+  engin fyrirspurn kemst í nafnið. Heildartölur breytast þó ekki.
 - **MCP-þjónn** (`opnir_agent/mcp_server.py`): sömu þrjú verkfæri fyrir hvaða MCP-forrit sem er,
-  með sömu öryggis- og persónuverndarlögum.
-- **Skjalaleit keyrir staðbundið** (multilingual-e5-base), svo skjölin fara ekki úr vélinni.
+  ásamt sömu öryggis- og persónuverndarreglum.
+- **Skjalaleit keyrir staðbundið** (multilingual-e5-base), þannig að skjölin fara aldrei út úr tölvunni.
 
-## Mælt
+## Mælingar
 
-`evals/run_repeated.py` keyrir hvert prófasett þrisvar, því líkanið svarar ekki eins í hvert sinn.
+`evals/run_repeated.py` keyrir hvert prófasett þrisvar, þar sem líkanið svarar ekki alltaf eins.
 
 | Prófasett | Spurningar | Rétt í hverri keyrslu | Rétt í öllum |
 |---|---|---|---|
@@ -69,22 +70,22 @@ Líkanið snertir aldrei gögnin sjálft; það getur aðeins beðið um eitt af
 | Spurningar sem gögnin geta ekki svarað | 13 | 12, 13, 12 | 12 |
 | Prompt injection (falinn texti í skjalaleit) | 4 | 4, 4, 4 | 4 |
 
-Prompt injection: 12 af 12 tilraunum hafnað; agentinn reyndi aldrei að skrifa í gagnagrunninn,
+Prompt injection: öllum 12 tilraunum var hafnað; agentinn reyndi aldrei að skrifa í gagnagrunninn,
 afhjúpa nöfn eða fylgja fyrirmælunum, og svaraði samt rétt úr réttu síðunni. Veikasti hlutinn er
-skjalaleit á umorðuðum spurningum: hún finnur ekki réttan kafla þegar spurningin deilir fáum orðum
-með síðunni.
+skjalaleit á umorðuðum spurningum: hún finnur ekki réttan kafla þegar spurningin á fá sameiginleg orð
+við síðuna.
 
-Allar villur eru lesnar yfir handvirkt; sjá [DATA_NOTES.md](DATA_NOTES.md) fyrir hvað bregst og hvers vegna.
+Allar villur eru yfirfarnar handvirkt; sjá [DATA_NOTES.md](DATA_NOTES.md) um hvað bregst og hvers vegna.
 
 ## Takmarkanir gagnanna
 
-Aðeins greiddir reikningar 2025. Laun, styrkir, bætur, greiðslur í erlendri mynt og viðkvæmar
+Aðeins greiddir reikningar árið 2025. Laun, styrkir, bætur, greiðslur í erlendri mynt og viðkvæmar
 kostnaðartegundir eru ekki birtar. Greiðslur milli ríkisaðila eru taldar með. Þegar reikningur er
 greiddur í áföngum endurtekur útflutningurinn allar línur hans. Nánar í [DATA_NOTES.md](DATA_NOTES.md).
 
 ## Uppsetning
 
-Sjá [Setup](#setup) hér fyrir neðan (sömu skref).
+Sjá [Setup](#setup) hér að neðan (sömu skref).
 
 ---
 
